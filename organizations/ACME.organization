@@ -552,6 +552,9 @@
       <displayName>Member</displayName>
       <description></description>
     </role>
+    <role name="Improvement Manager">
+      <displayName>Improvement Manager</displayName>
+    </role>
   </roles>
   <groups>
     <group name="acme">
@@ -608,6 +611,12 @@
     </group>
     <group name="Management" parentPath="/acme">
       <displayName>Management</displayName>
+    </group>
+    <group name="Improvement Manager" parentPath="/acme">
+      <displayName>Improvement Manager</displayName>
+    </group>
+    <group name="Managment Assistant" parentPath="/acme">
+      <displayName>Managment Assistant</displayName>
     </group>
   </groups>
   <memberships>

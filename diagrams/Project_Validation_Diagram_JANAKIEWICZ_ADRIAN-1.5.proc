@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connectorconfiguration="http://wwww.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_i2Ih8DWbEeyd5aK_xT4IEg" name="Project_Validation_Diagram_JANAKIEWICZ_ADRIAN" version="1.5" author="adrian" bonitaVersion="7.13.0" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_i2Ih8TWbEeyd5aK_xT4IEg" name="Process_Validation_Process_JANAKIEWICZ_ADRIAN" version="1.5">
-      <elements xmi:type="process:Lane" xmi:id="_i2IjmjWbEeyd5aK_xT4IEg" name="Management">
+      <elements xmi:type="process:Lane" xmi:id="_i2IjmjWbEeyd5aK_xT4IEg" name="Management" actor="_RdFJoDXWEeyalrUsmE_tBw">
         <elements xmi:type="process:Task" xmi:id="_i2Ih9zWbEeyd5aK_xT4IEg" name="Approve proposal" outgoing="_i2IjuzWbEeyd5aK_xT4IEg" incoming="_i2IjojWbEeyd5aK_xT4IEg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_i2Ih-DWbEeyd5aK_xT4IEg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_i2Ih-TWbEeyd5aK_xT4IEg" name="" content="" returnTypeFixed="true"/>
@@ -74,7 +74,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_i2IiNzWbEeyd5aK_xT4IEg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_i2Ih8jWbEeyd5aK_xT4IEg" name="Management assistant" actor="_i2Ij3TWbEeyd5aK_xT4IEg">
+      <elements xmi:type="process:Lane" xmi:id="_i2Ih8jWbEeyd5aK_xT4IEg" name="Management assistant" actor="_TRcqQDXWEeyalrUsmE_tBw">
         <elements xmi:type="process:EndEvent" xmi:id="_i2IiDzWbEeyd5aK_xT4IEg" name="Project finished" incoming="_i2IjuDWbEeyd5aK_xT4IEg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_i2IiEDWbEeyd5aK_xT4IEg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_i2IiETWbEeyd5aK_xT4IEg" name="" content="" returnTypeFixed="true"/>
@@ -573,7 +573,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_i2Ih9jWbEeyd5aK_xT4IEg" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_UJSO0DWiEeyGYey9DsYKCQ" name="R&amp;D">
+      <elements xmi:type="process:Lane" xmi:id="_UJSO0DWiEeyGYey9DsYKCQ" name="R&amp;D" actor="_UK8eEDXWEeyalrUsmE_tBw">
         <elements xmi:type="process:Task" xmi:id="_i2IiEzWbEeyd5aK_xT4IEg" name="Analyze impact" outgoing="_i2IjrDWbEeyd5aK_xT4IEg" incoming="_i2IjqTWbEeyd5aK_xT4IEg" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_i2IiFDWbEeyd5aK_xT4IEg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_i2IiFTWbEeyd5aK_xT4IEg" name="" content="" returnTypeFixed="true"/>
@@ -697,6 +697,9 @@
         <condition xmi:type="expression:Expression" xmi:id="_i2Ij3DWbEeyd5aK_xT4IEg" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
       <actors xmi:type="process:Actor" xmi:id="_i2Ij3TWbEeyd5aK_xT4IEg" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_RdFJoDXWEeyalrUsmE_tBw" name="Management"/>
+      <actors xmi:type="process:Actor" xmi:id="_TRcqQDXWEeyalrUsmE_tBw" name="Management assistant"/>
+      <actors xmi:type="process:Actor" xmi:id="_UK8eEDXWEeyalrUsmE_tBw" name="R&amp;D"/>
       <contract xmi:type="process:Contract" xmi:id="_i2Ij3jWbEeyd5aK_xT4IEg">
         <inputs xmi:type="process:ContractInput" xmi:id="_i2Ij3zWbEeyd5aK_xT4IEg" name="projectInput" type="COMPLEX" dataReference="project">
           <inputs xmi:type="process:ContractInput" xmi:id="_i2Ij4DWbEeyd5aK_xT4IEg" name="proposal"/>
@@ -724,7 +727,7 @@
       </searchIndexes>
     </elements>
     <elements xmi:type="process:Pool" xmi:id="_wpmDEDWhEeyGYey9DsYKCQ" name="Create proposal">
-      <elements xmi:type="process:Lane" xmi:id="_xHT50DWhEeyGYey9DsYKCQ" name="Improvement manager">
+      <elements xmi:type="process:Lane" xmi:id="_xHT50DWhEeyGYey9DsYKCQ" name="Improvement manager" actor="_NI2UUDXWEeyalrUsmE_tBw">
         <elements xmi:type="process:XORGateway" xmi:id="_-zjnYDWhEeyGYey9DsYKCQ" name="Approved?" outgoing="__-GH4DWhEeyGYey9DsYKCQ _BvtPcDWiEeyGYey9DsYKCQ" incoming="_-aCUIDWhEeyGYey9DsYKCQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_-Z8NgjWhEeyGYey9DsYKCQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_-Z8NgTWhEeyGYey9DsYKCQ" name="" content="" returnTypeFixed="true"/>
@@ -781,7 +784,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_o5HXQTXLEeyGYey9DsYKCQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_xYS8IDWhEeyGYey9DsYKCQ" name="Employee">
+      <elements xmi:type="process:Lane" xmi:id="_xYS8IDWhEeyGYey9DsYKCQ" name="Employee" actor="_QmCz8DXWEeyalrUsmE_tBw">
         <elements xmi:type="process:StartEvent" xmi:id="_3q7-4DWhEeyGYey9DsYKCQ" name="Idea" outgoing="_5Zw4MDWhEeyGYey9DsYKCQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_3q8l8TWhEeyGYey9DsYKCQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_3q8l8DWhEeyGYey9DsYKCQ" name="" content="" returnTypeFixed="true"/>
@@ -851,6 +854,8 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_G2hYQTWiEeyGYey9DsYKCQ"/>
         <condition xmi:type="expression:Expression" xmi:id="_G2hYQjWiEeyGYey9DsYKCQ" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
+      <actors xmi:type="process:Actor" xmi:id="_NI2UUDXWEeyalrUsmE_tBw" name="Improvement Manager"/>
+      <actors xmi:type="process:Actor" xmi:id="_QmCz8DXWEeyalrUsmE_tBw" name="Employee"/>
       <contract xmi:type="process:Contract" xmi:id="_wrOaxDWhEeyGYey9DsYKCQ"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_wrNMoDWhEeyGYey9DsYKCQ">
         <name xmi:type="expression:Expression" xmi:id="_wrNMoTWhEeyGYey9DsYKCQ" content="" returnTypeFixed="true"/>
@@ -1093,7 +1098,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_UJS14jWiEeyGYey9DsYKCQ" fontName="Ubuntu"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_UJS14zWiEeyGYey9DsYKCQ"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_UJTc8jWiEeyGYey9DsYKCQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJS15DWiEeyGYey9DsYKCQ" x="120" y="587"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJS15DWiEeyGYey9DsYKCQ" x="23" y="548" width="1602" height="100"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_i2IkVjWbEeyd5aK_xT4IEg"/>

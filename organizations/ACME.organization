@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="ACME" description="The ACME organization is an example of a typical hierarchy. It can be used for development.">
+  <customUserInfoDefinitions/>
   <users>
     <user userName="william.jobs">
       <firstName>William</firstName>
@@ -744,6 +745,88 @@
       <roleName>member</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>rd</groupName>
+      <groupParentPath>/acme/production</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>Management</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>Improvement Manager</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>Managment Assistant</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>production</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>anthony.nichols</userName>
+      <roleName>member</roleName>
+      <groupName>Management</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>april.sanchez</userName>
+      <roleName>member</roleName>
+      <groupName>Management</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>daniela.angelo</userName>
+      <roleName>member</roleName>
+      <groupName>Management</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>favio.riviera</userName>
+      <roleName>member</roleName>
+      <groupName>Improvement Manager</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>giovanna.almeida</userName>
+      <roleName>member</roleName>
+      <groupName>Improvement Manager</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>helen.kelly</userName>
+      <roleName>member</roleName>
+      <groupName>Managment Assistant</groupName>
+      <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>isabel.bleasdale</userName>
+      <roleName>member</roleName>
+      <groupName>Managment Assistant</groupName>
+      <groupParentPath>/acme</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>

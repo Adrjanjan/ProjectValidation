@@ -601,7 +601,6 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_JDHP0zEzEeykcroQtsh8gQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_QNRwcDWbEeyd5aK_xT4IEg" name="Lane1"/>
       <data xmi:type="process:BusinessObjectData" xmi:id="_JDHQAjEzEeykcroQtsh8gQ" name="project" dataType="_JDHQUDEzEeykcroQtsh8gQ" className="com.company.model.Project">
         <defaultValue xmi:type="expression:Expression" xmi:id="_JDHQAzEzEeykcroQtsh8gQ" name="initProject()" content="def projectVar = new com.company.model.Project()&#xA;projectVar.proposal = projectInput?.proposal&#xA;return projectVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.Project">
           <referencedElements xmi:type="process:ContractInput" xmi:id="_JDHQBDEzEeykcroQtsh8gQ" name="projectInput" type="COMPLEX"/>
@@ -847,15 +846,6 @@
           <styles xmi:type="notation:LineStyle" xmi:id="_JDHQjTEzEeykcroQtsh8gQ"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_JDHQjjEzEeykcroQtsh8gQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDHQjzEzEeykcroQtsh8gQ" x="23" y="10" width="1602" height="403"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_QNbhcDWbEeyd5aK_xT4IEg" type="3007" element="_QNRwcDWbEeyd5aK_xT4IEg">
-          <children xmi:type="notation:DecorationNode" xmi:id="_QNcIgDWbEeyd5aK_xT4IEg" type="5007"/>
-          <children xmi:type="notation:DecorationNode" xmi:id="_QNcIgTWbEeyd5aK_xT4IEg" type="7002"/>
-          <styles xmi:type="notation:DescriptionStyle" xmi:id="_QNbhcTWbEeyd5aK_xT4IEg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_QNbhcjWbEeyd5aK_xT4IEg" fontName="Ubuntu"/>
-          <styles xmi:type="notation:LineStyle" xmi:id="_QNbhczWbEeyd5aK_xT4IEg"/>
-          <styles xmi:type="notation:FillStyle" xmi:id="_QNcIgjWbEeyd5aK_xT4IEg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QNbhdDWbEeyd5aK_xT4IEg" x="139" y="296"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_JDHQkDEzEeykcroQtsh8gQ"/>

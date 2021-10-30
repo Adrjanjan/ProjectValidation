@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "ApproveProposal",
   "name" : "ApproveProposal",
-  "lastUpdate" : 1635445194928,
+  "lastUpdate" : 1635617098880,
   "rows" : [
     [
       {
@@ -167,7 +167,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "<h3><b>{{project.title}}</b> </h3>\n<br></br>\n<b>Project Proposal:</b> {{project.title}}"
+                    "value" : "<h3><b>{{project.title}}</b> </h3>\n<br></br>\n<b>Description:</b> {{project.proposal}}"
                   },
                   "alignment" : {
                     "type" : "constant",

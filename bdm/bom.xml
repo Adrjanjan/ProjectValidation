@@ -8,7 +8,7 @@
                 <field type="BOOLEAN" length="255" name="projectOK" nullable="true" collection="false"/>
                 <field type="STRING" length="512" name="impacts" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="applicantEmail" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="startDate" nullable="true" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="startDate" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="title" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>

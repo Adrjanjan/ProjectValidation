@@ -782,11 +782,6 @@
       <groupName>acme</groupName>
     </membership>
     <membership>
-      <userName>walter.bates</userName>
-      <roleName>member</roleName>
-      <groupName>acme</groupName>
-    </membership>
-    <membership>
       <userName>anthony.nichols</userName>
       <roleName>member</roleName>
       <groupName>Management</groupName>
@@ -827,6 +822,11 @@
       <roleName>member</roleName>
       <groupName>Managment Assistant</groupName>
       <groupParentPath>/acme</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>acme</groupName>
     </membership>
   </memberships>
 </organization:Organization>
